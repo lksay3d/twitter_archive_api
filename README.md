@@ -10,15 +10,15 @@
 1. Ensure that the most recent version of Node.js is downloaded and installed on your computer
 2. Open Terminal and run these commands:
 
-a. install node.js :installs node.js onto your computer
+    a. install node.js :installs node.js onto your computer
 
-b. mkdir twitter_archive_api :creates a directory for the program
+    b. mkdir twitter_archive_api :creates a directory for the program
 
-c. cd twitter_archive_api :navigates into the working directory
+    c. cd twitter_archive_api :navigates into the working directory
 
-d. npm init -y :initializes a new Node.js project
+    d. npm init -y :initializes a new Node.js project
 
-e. npm install express :installs a web server framework for Node.js
+    e. npm install express :installs a web server framework for Node.js
 
 3. Download the files into the working directory
 4. Install Postman onto your computer. You do not need an account to continue, you can select to move into the "lightweight" API client.
