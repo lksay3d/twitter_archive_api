@@ -6,16 +6,16 @@ const express = require('express');
 const app = express();
 
 //using port 3000
-const port = 3000;
+const port = 3001;
 
-const tweetsData = require('/Users/sayedlk/twitter_archive_api/favs.json');
+const tweetsData = require('/Users/sayedlk/Documents/GitHub/twitter_archive_api/favs.json');
 
 //use the express server
 app.use(express.json());
 
 //have the server listen to requests from port
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${3000}`);
+    console.log(`Server listening at http://localhost:${port}`);
   });  
 
 //getting all tweets
